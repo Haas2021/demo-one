@@ -21,6 +21,20 @@ Añadimos todos los archivos dentro de un directorios
 
 	git add docs/
 
+GIT COMMIT
+Cargar en el HEAD los cambios realizados
+
+	git commit -m "Texto que identifique por que se hizo el commit"
+Agregar y Cargar en el HEAD los cambios realizados
+
+	git commit -a -m "Texto que identifique por que se hizo el commit"
+De haber conflictos los muestra
+
+	git commit -a 
+Agregar al ultimo commit, este no se muestra como un nuevo commit en los logs. Se puede especificar un nuevo mensaje
+
+	git commit --amend -m "Texto que identifique por que se hizo el commit"
+
     END
 
     
