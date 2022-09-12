@@ -35,6 +35,8 @@ Agregar al ultimo commit, este no se muestra como un nuevo commit en los logs. S
 
 	git commit --amend -m "Texto que identifique por que se hizo el commit"
 
+	GIT
+
     END
 
     
